@@ -4,12 +4,18 @@
 	font-family: Century Gothic;
 }
 
-html{
-	background-image: url(../japan.jpeg);
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../japan.jpeg);
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
+	
 }
+body{
+	background-image: url(../black.png);
+	height: 100vh;
+}
+
 ul li.default a{
 	background-color: #fff;
 	color: #000;
@@ -40,7 +46,7 @@ ul li a:hover{
 }
 
 .title h1{
-	font-size: 100px;
+	font-size: 90px;
 	
 	color: #fff;
 }
@@ -48,7 +54,7 @@ ul li a:hover{
 .title{
 	position: absolute;
 	left: 50%;
-	top: 50%;
+	top: 40%;
 	transform: translate(-50%, -50%);
 }
 .button{
@@ -69,6 +75,72 @@ ul li a:hover{
 	background-color: #fff;
 	color: #000;
 }
+.box{
+	position: absolute;
+	left: 50%;
+	top: 60%;
+	transform: translate(-50%, -50%);
+}
+.search-box{
+	font-size: 20px;
+	height: 50px;
+	padding: 10px;
+	border: none;
+	outline: none;
+	width: 400px;
+	border-radius: 25px;
+}
+.search-button{
+	font-size: 20px;
+	height:65px;
+	width:100px;
+	border: none;
+	border-radius: 50px;
+	color: #000;
+	background-color: #33AFFF;
+	
+}
+.search-button:hover{
+	background: #FF3353;
+	cursor: pointer;
+	transition: 0.3s ease;
+	
+}
+section.options {
+	float: center;
+	width: 659px;
+	border-right: 1px solid #eeeeee;
+	color: #fff;
+}
+
+
+article {
+	clear: both;
+	overflow: auto;
+	width: 100%;
+}
+section.courses h2 {
+	margin-top: 40px;
+}
+figure {
+	float: left;
+	width: 290px;
+	height: 220px;
+	padding: 5px;
+	margin: 20px;
+	border: 1px solid #eeeeee transparent;
+}
+figcaption {
+	font-size: 90%;
+	text-align: left;
+}
+
+img{
+	width:290px;
+	height: 240px;
+}
+	
+
 	
 	
 	

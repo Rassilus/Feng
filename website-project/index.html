@@ -3,6 +3,8 @@
 <head>
 	<title>Exchange for better</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="website.js"></script>
 </head>
 	<header>
 		<div class="main">
@@ -20,6 +22,13 @@
 		
 	</header>
 <body>
+	<div class="box">
+	<input type="text" class="search-box" placeholder="search what plan you want" id="searchText">
+	<button class="search-button" type="submit" onclick="search()" id="search">Search</button>
+	</div>
+	<section class="options" id="optionList">
+	
+	</section>
 	<section class="button">
 		<a href="#" class="switch">Short-term exchanging</a>
 		<a href="#" class="switch">Long-term exchanging</a>
