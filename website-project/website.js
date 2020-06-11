@@ -58,22 +58,11 @@ function displayPrograms(programs) {
 
 $(document).ready(function(){
 	let mainProgram = [programs[0]];
-
 	displayPrograms(mainProgram);
-
-
-	// Registering the search event handler using event listeners (addEventListener)
-	// $("#search").on("click", search);
-
-	// Registering the search event handler using event handler properties (onevent properties)
-	// let searchButton = document.getElementById('search');
-	// searchButton.onclick = search;
-
 	$("#search").on("click", search);
 });
 
 function search() {
-	console.log("Working properly"); 
 	let query = $("#searchText").val();
 	query = query.toLowerCase().trim();
 
